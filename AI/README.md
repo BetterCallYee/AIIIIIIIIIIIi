@@ -83,6 +83,6 @@ jupyter notebook ScoutAI_Main.ipynb
 Note: The notebook contains an interactive cell where you can input a target player's name (e.g., "Phil Jones", "Alisson") to generate the real-time scouting radar dashboard.
 
 Author: Rifhan Hajiteh & Isarn Ilachan
-Student ID: 66143100 & 661431021
+Student ID: 661431009 & 661431021
 
 Information Technology student, passionate about applying data science to solve real-world problems and always eager to learn from hands-on experience.
