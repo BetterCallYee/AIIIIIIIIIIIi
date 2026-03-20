@@ -84,5 +84,3 @@ Note: The notebook contains an interactive cell where you can input a target pla
 
 Author: Rifhan Hajiteh & Isarn Ilachan
 Student ID: 661431009 & 661431021
-
-Information Technology student, passionate about applying data science to solve real-world problems and always eager to learn from hands-on experience.
