@@ -75,8 +75,7 @@ The system outputs a **Visual Analytics Dashboard** displaying the Top 5 shortli
    ```bash
    python -m venv venv
    ```
-Activate it:
-
+### Activate it:
 Windows
    ```bash
    .\venv\Scripts\activate   
@@ -87,26 +86,28 @@ Mac / Linux
    source venv/bin/activate
    ```
 
-You should see (venv) in your terminal.
-
 3.Install Requirements
    ```bash
    pip install -r requirements.txt
    ```
+Register the environment as a Jupyter kernel (run once):
+   ```bash
+   python -m ipykernel install --user --name scoutai --display-name "Python (ScoutAI)"
+   ```
 
-Ensure the dataset (fm_dataset.csv) is placed in the root directory.
-
-4.Select Python Kernel
-
+### Select Python Kernel
 Open ai.ipynb and select:
-Python (venv)
+   ```bash
+   Python (ScoutAI)
+   ```
+from the notebook kernel menu.
 
-Execution
+### Execution
 Run the Jupyter Notebook to explore the full pipeline:
-
-Bash
-jupyter notebook ScoutAI_Main.ipynb
+   ```bash
+   jupyter notebook ai.ipynb
+   ```
 Note: The notebook contains an interactive cell where you can input a target player's name (e.g., "Phil Jones", "Alisson") to generate the real-time scouting radar dashboard.
 
-Author: Rifhan Hajiteh & Isarn Ilachan
+Author: Rifhan Hajiteh & Isarn Ilacharn
 Student ID: 661431009 & 661431021
