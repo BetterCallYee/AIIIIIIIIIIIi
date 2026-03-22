@@ -65,13 +65,13 @@ The system outputs a **Visual Analytics Dashboard** displaying the Top 5 shortli
 * Jupyter Notebook
 
 ### Installation
-1. Clone the repository:
+1.Clone the repository:
    ```bash
    git clone https://github.com/BetterCallYee/ScoutAI.git
    cd ScoutAI
    ```
 
-2. Create & Activate Virtual Environment (Recommended)
+2.Create & Activate Virtual Environment (Recommended)
    ```bash
    python -m venv venv
    ```
@@ -89,14 +89,14 @@ Mac / Linux
 
 You should see (venv) in your terminal.
 
-3. Install Requirements
+3.Install Requirements
    ```bash
    pip install -r requirements.txt
    ```
 
 Ensure the dataset (fm_dataset.csv) is placed in the root directory.
 
-4. Select Python Kernel
+4.Select Python Kernel
 
 Open ai.ipynb and select:
 Python (venv)
